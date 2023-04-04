@@ -1,0 +1,105 @@
+<!-- 
+○ Crear un formulario que tengo campo de texto: Apellido, Nombres, edad
+○ Combo simple: sexo
+○ Radio: Menor 18 años, Mayor 18 años
+○ Combo múltiple: Idiomas (Inglés, francés, alemán, holandés)
+○ CheckBox: class="checkbox" Extras (auto, camioneta, camión)
+○ TextArea: comentario
+○ Botones: enviar datos, borrar datos
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-form">
+
+        <div class="form">
+            <div class="title-form">
+                <h1>Formulario de registro</h1>
+            </div>
+            <div class="content-form">
+                <div class="nombre">
+                    <p>Nombre</p>
+                    <input type="text" name="" id="" placeholder="Ingrese su nombre">
+                </div>
+                <div class="apellido">
+                    <p>Apellido</p>
+                    <input type="text" name="" id="" placeholder="Ingrese su apellido">
+                </div>
+                <div class="edad">
+                    <p>Edad</p>
+                    <input type="number" name="" id="" placeholder="Ingrese su edad">
+                </div>
+                <div class="sexo">
+                    <p>Seleccione su sexo</p>
+                    <select name="sexo-select">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino" selected>Femenino</option>
+                    </select>
+                </div>
+                <div class="mayoriaEdad">
+                    <p>¿Cumple la mayoria de edad?</p>
+                    <div class="inputs">
+                        <div class="mayor">
+                            <input type="checkbox" class="checkbox" id="cbox1" value="mayoria_edad"><label for="cbox1">Soy mayor de
+                                edad</label>
+                        </div>
+                        <div class="menor">
+                            <input type="checkbox" class="checkbox" id="cbox2" value="minoria_edad"><label for="cbox2">No soy mayor de
+                                edad</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="idiomas">
+                    <p>¿De que idioma tienes conocimiento?</p>
+                    <select multiple name="idiomas-multiple">
+                        <option>Inglés</option>
+                        <option>Francés</option>
+                        <option>Alemán</option>
+                        <option>Holandés</option>
+                    </select>
+                </div>
+                <div class="extras">
+                    <p>Extras</p>
+                    <div class="inputs">
+                        <div class="auto">
+                            <input type="checkbox" class="checkbox" id="auto" value="auto"><label for="auto">Auto</label>
+                        </div>
+                        <div class="camioneta">
+                            <input type="checkbox" class="checkbox" id="camion" value="camion"><label for="camion">Camion</label>                
+                        </div>
+                        <div class="camion">
+                            <input type="checkbox" class="checkbox" id="camioneta" value="camioneta"><label for="camioneta">Camioneta</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="comentario">
+                    <p>Comentario</p>
+                    <textarea name="comentario-textArea" id="" cols="30" rows="10"></textarea>
+                </div>
+
+            </div>
+            <div class="form-button">
+                <button type="button">Enviar datos</button>
+                <button type="button">Borrar datos</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

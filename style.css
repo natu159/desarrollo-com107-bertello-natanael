@@ -1,0 +1,126 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+   background: #F5F5F5;
+   background-image: url("./fondo.jpg");
+   display: flex;
+}
+
+.container-form {
+    margin: auto;
+}
+
+.form {
+    width: 600px;
+    margin: 100px;
+    padding: 100px;
+    background: #FFF;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+}
+
+
+.title-form h1 {
+    text-align: center;
+    font-size: 42px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.content-form p {
+    font-weight: bold;
+    display: flex;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.content-form input { 
+    width: 100%;
+    border-color:#cccccc; 
+    border-style:solid; 
+    border-width:1px; 
+    border-radius:6px; 
+    font-size:16px; 
+    padding:6px; 
+    box-shadow: 0px 0px 5px 0px rgba(42,42,42,.20);  }
+
+.content-form .checkbox {
+    margin-right: 10px;
+    width: auto;
+}
+
+.inputs {
+    display: flex;
+}
+
+.inputs .mayor {
+    margin-right: 20px;
+}
+
+.inputs .auto {
+    margin-right: 20px;
+}
+
+.inputs .camioneta {
+    margin-right: 20px;
+}
+
+.content-form input:focus { 
+    outline:none; } 
+
+.content-form select { 
+    width: 100%;
+    border-color:#cccccc; 
+    border-style:solid; 
+    border-width:1px; 
+    border-radius:6px; 
+    font-size:16px; 
+    padding:6px; 
+    box-shadow: 0px 0px 5px 0px rgba(42,42,42,.20);  }
+
+.content-form textarea {
+    border-color:#cccccc; 
+    border-style:solid; 
+    border-width:1px; 
+    border-radius:6px; 
+    font-size:16px; 
+    padding:6px; 
+    box-shadow: 0px 0px 5px 0px rgba(42,42,42,.20); 
+    width: 100%;
+}
+
+.form-button {
+    margin-top:30px;
+    text-align: end;
+}
+
+
+
+button { 
+    background-color: rgba(23, 26, 32, 0.8); 
+    border: none; 
+    border-radius: 6px; 
+    color: #fff; 
+    flex-grow: 1; 
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif; 
+    font-size: 15px; 
+    height: 36px; 
+    line-height: 20px; 
+    margin-left: 8px; 
+    margin-right: 6px; 
+    min-width: 185px; 
+    padding: 0 16px 0 16px; 
+    color:white; 
+    cursor: pointer; 
+    } 
+    
+button:hover{ 
+    background-color: rgba(23, 26, 32, 1); 
+    cursor: pointer; 
+    } 
+    
